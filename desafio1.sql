@@ -77,14 +77,14 @@ INSERT INTO album(album_name, release_year, artist_id) VALUES
 
 INSERT INTO music(music_name, music_length, album_id) VALUES
   ('BREAK MY SOUL', 279, 1),
-  ("VIRGO'S GROOVE", 369, 1),
+  ('VIRGO’S GROOVE', 369, 1),
   ('ALIEN SUPERSTAR', 116, 1),
-  ("Don't Stope Me Now", 203, 2),
+  ('Don’t Stop Me Now', 203, 2),
   ('Under Pressure', 152, 3),
   ('Como Nossos Pais', 105, 4),
   ('O Medo de Amar é o Medo de Ser Livre', 207, 5),
   ('Samba em Paris', 267, 6),
-  ("The Bard's Song", 244, 7),
+  ('The Bard’s Song', 244, 7),
   ('Feeling Good', 100, 8);
 
 INSERT INTO subscription(subscription_name, subscription_value) VALUES
@@ -96,14 +96,14 @@ INSERT INTO subscription(subscription_name, subscription_value) VALUES
 INSERT INTO user(user_name, user_age, subscription_id, subscribe_date) VALUES
   ('Barbara Liskov', 82, 1, '2019-10-20'),
   ('Robert Cecil Martin', 58, 1, '2017-01-06'),
-  ('Ada Lovelace', 37, 1, '2017-12-30'),
-  ('Martin Fowler', 46, 1, '2017-01-17'),
-  ('Sandi Metz', 58, 1, '2018-04-29'),
-  ('Paulo Freire', 19, 1, '2018-02-14'),
-  ('Bell Hooks', 26, 1, '2018-01-05'),
-  ('Christopher Alexander', 85, 1, '2019-06-05'),
-  ('Judith Butler', 45, 1, '2020-05-13'),
-  ('Jorge Amado', 58, 1, '2017-02-17');
+  ('Ada Lovelace', 37, 2, '2017-12-30'),
+  ('Martin Fowler', 46, 2, '2017-01-17'),
+  ('Sandi Metz', 58, 2, '2018-04-29'),
+  ('Paulo Freire', 19, 3, '2018-02-14'),
+  ('Bell Hooks', 26, 3, '2018-01-05'),
+  ('Christopher Alexander', 85, 4, '2019-06-05'),
+  ('Judith Butler', 45, 4, '2020-05-13'),
+  ('Jorge Amado', 58, 4, '2017-02-17');
 
 INSERT INTO history(user_id, music_id, reproduction_date) VALUES
   (1, 8, '2022-02-28 10:45:55'),
